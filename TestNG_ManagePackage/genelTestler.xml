@@ -1,0 +1,10 @@
+<suite name="TestNG Örnekleri">
+    <test name="Temel Pratikler">
+        <packages>
+            <package name="com.example.tests">
+                <include name="com.example.tests.MyFirstTests"/>
+            </package>
+
+        </packages>
+    </test>
+</suite>
