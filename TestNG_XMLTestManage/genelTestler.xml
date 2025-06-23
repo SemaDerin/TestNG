@@ -1,0 +1,8 @@
+<suite name="TestNG Örnekleri">
+    <test name="Temel Pratikler">
+        <classes>
+            <class name="MyTest"/>
+            <class name="MyFirstTests"/>
+        </classes>
+    </test>
+</suite>
