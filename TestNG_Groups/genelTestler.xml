@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Örnekleri">
+    <test name="Temel Pratikler">
+
+        <groups>
+            <run>
+                <include name="Duman"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.example.tests.GroupsExamples"></class>
+        </classes>
+    </test>
+</suite>
