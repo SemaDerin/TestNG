@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" parallel="tests" thread-count="2">
+
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter2"/>
+        <listener class-name="org.testng.reporters.XMLReporter"></listener>
+        <listener class-name="org.testng.reporters.TestHTMLReporter"></listener>
+
+    </listeners>
+
+    <test name="Test on Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.examples.tests.MyTest"/>
+        </classes>
+    </test>
+
+    <test name="Test on Firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.examples.tests.MyTest"/>
+        </classes>
+    </test>
+
+</suite>
