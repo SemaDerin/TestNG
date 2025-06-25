@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="baseUrl" value="https://www.google.com"/>
+    <test name="ParameterExample">
+        <classes>
+            <class name="com.examples.tests.MyClass">
+
+            </class>
+        </classes>
+    </test>
+</suite>
