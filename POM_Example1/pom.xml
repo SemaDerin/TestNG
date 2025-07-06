@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>POM_Example2</artifactId>
+    <artifactId>POM1</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -49,5 +49,8 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+
+
 
 </project>
